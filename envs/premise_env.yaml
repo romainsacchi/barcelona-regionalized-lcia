@@ -1,0 +1,17 @@
+# in your terminal, run conda: conda env create -f premise_env.yaml
+
+name: premise
+channels:
+  - romainsacchi
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - bw2calc==1.8.2
+  - bw2data==3.6.6
+  - bw2io==0.8.12
+  - premise-bw2
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - constructive_geometries>=1.0.0

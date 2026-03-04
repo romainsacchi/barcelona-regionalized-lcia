@@ -1,0 +1,17 @@
+# in your terminal, run conda: conda env create -f odym_env.yaml
+
+name: odym
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - bw2calc==1.8.2
+  - bw2data==3.6.6
+  - bw2io==0.8.12
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - git+https://github.com/romainsacchi/ODYM.git

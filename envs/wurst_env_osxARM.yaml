@@ -1,0 +1,23 @@
+# in your terminal, run conda: conda env create -f wurst_env_osxARM.yaml
+
+name: wurst
+channels:
+  - cmutel
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - bw2calc==1.8.2
+  - bw2data==3.6.6
+  - bw2io==0.8.12
+  - scipy==1.13.1
+  - scikit-umfpack
+  - numpy <=1.24.4
+  - wurst >=0.4.0
+  - constructive_geometries>=1.0.0
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - xarray
+  - pandas
+  - prettytable
