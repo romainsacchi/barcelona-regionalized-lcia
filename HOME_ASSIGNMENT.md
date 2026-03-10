@@ -13,7 +13,7 @@ Create a small, reproducible LCA project that uses one or several concepts cover
 
 ## Requirements
 
-1. The work must use at least one concept from the course (for example: Brightway modeling, BAFU import workflow, regionalized LCIA with Edges, scenario-based LCIA, inventory flow assessment, uncertainty analysis, contribution analysis).
+1. The work must use at least one concept from the course (for example: `brightway` modeling, BAFU import workflow, regionalized LCIA with `edges`, scenario-based LCIA, inventory flow assessment, uncertainty analysis, contribution analysis).
 2. The assignment must be shared as a **repository** (GitHub or another platform) and a **link must be provided**.
 3. The repository must include scripts or notebooks that allow others to reproduce the results.
 4. The repository should include a short `README` explaining:
@@ -31,4 +31,3 @@ Preferably, apply the course concepts to a topic you already work on outside thi
 Send the repository link to:
 
 - `romain.sacchi@psi.ch`
-

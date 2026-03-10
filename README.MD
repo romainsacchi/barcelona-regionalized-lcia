@@ -5,11 +5,11 @@
 ## Course Overview
 
 This repository contains all material for the 3-day course:
-**Regionalised LCIA for Beginner and Intermediate Brightway users**.
+**Regionalised LCIA for Beginner and Intermediate `brightway` users**.
 
 The core course focuses on:
-- Brightway 2.5 foundations
-- Regionalised LCIA with Edges
+- `brightway` 2.5 foundations
+- Regionalised LCIA with `edges`
 - Scenario-based LCIA
 - Inventory flow assessment
 
@@ -19,24 +19,24 @@ All material remains available after the course.
 ## Learning Outcomes
 
 By the end of the course, participants will be able to:
-- Explain Brightway's architecture and matrix-based LCA computation flow.
+- Explain `brightway`'s architecture and matrix-based LCA computation flow.
 - Build and run LCA models in Python.
 - Perform uncertainty analysis and contribution analysis.
 - Import and analyze a national LCA inventory database from Excel.
-- Run regionalised LCIA workflows with Edges.
+- Run regionalised LCIA workflows with `edges`.
 - Implement scenario-based LCIA with parameterised characterization factors.
 - Perform inventory flow assessment and interpret supply-chain criticality signals.
 
 ## Target Audience
 
 - LCA practitioners with beginner or intermediate Python skills.
-- No prior Brightway experience required.
+- No prior `brightway` experience required.
 - Participants should already know core LCA concepts.
 
 ## Database Used in the Course
 
 This course uses the **BAFU:2025** LCA database (open access), provided by the
-Swiss Federal Office for the Environment (FOEN) as a Brightway-compatible Excel inventory file.
+Swiss Federal Office for the Environment (FOEN) as a `brightway`-compatible Excel inventory file.
 
 Database page:
 - https://nexus.openlca.org/database/BAFU
@@ -56,8 +56,8 @@ Requirements:
 ## Repository Structure
 
 - [tutorials/00_SETUP/](tutorials/00_SETUP/README.MD): pre-course setup and first checks
-- [tutorials/DAY 1/](tutorials/DAY%201/README.MD): Brightway foundations + BAFU Excel import
-- [tutorials/DAY 2/](tutorials/DAY%202/README.MD): regionalised LCIA with Edges
+- [tutorials/DAY 1/](tutorials/DAY%201/README.MD): `brightway` foundations + BAFU Excel import
+- [tutorials/DAY 2/](tutorials/DAY%202/README.MD): regionalised LCIA with `edges`
 - [tutorials/DAY 3/](tutorials/DAY%203/README.MD): scenario LCIA and inventory flow assessment
 
 ## Day-by-Day Notebooks
@@ -76,8 +76,10 @@ Core environment files are in `envs/`:
 
 ## Teaching Staff
 
-- Instructor: Romain Sacchi, Paul Scherrer Institute (PSI)
-- Location: Barcelona, Spring 2026
+- Instructors: 
+  - [Romain Sacchi](mailto:romain.sacchi@psi.ch), Paul Scherrer Institute (PSI)
+  - [Miguel Astudillo](mailto:miguel.astudillo@2-0-LCA.com), 2-0 LCA
+- Location: ILCA, Barcelona, Spring 2026
 - Format: lectures + hands-on workshops
 
 ## License

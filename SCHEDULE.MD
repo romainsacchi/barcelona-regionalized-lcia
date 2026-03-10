@@ -9,23 +9,23 @@ Complete:
 - [INSTRUCTIONS.MD](INSTRUCTIONS.MD)
 - [tutorials/00_SETUP/00 - Setup and First Checks.ipynb](tutorials/00_SETUP/00%20-%20Setup%20and%20First%20Checks.ipynb)
 
-## DAY 1 (Wednesday 27, 2026) - Brightway Foundations
+## DAY 1 (Wednesday 27, 2026) - `brightway` Foundations
 
 ### 09:00 - 09:30
 Welcome, setup check, course roadmap
 - [D1-01 Python and Jupyter minimum refresher](tutorials/DAY%201/D1-01%20Python%20and%20Jupyter%20minimum%20refresher.ipynb)
 
 ### 09:30 - 10:30
-Brightway architecture and core data model
-- [D1-02 Brightway architecture and data model](tutorials/DAY%201/D1-02%20Brightway%20architecture%20and%20data%20model.ipynb)
+`brightway` architecture and core data model
+- [D1-02 `brightway` architecture and data model](tutorials/DAY%201/D1-02%20Brightway%20architecture%20and%20data%20model.ipynb)
 
 ### 10:30 - 11:00
 Coffee break
 
 ### 11:00 - 13:00
-Manual matrix LCA, Brightway first LCA, and BAFU:2025 import
-- [D1-03 Manual LCA with NumPy matrices - Heijungs and Suh 2002 vs Brightway](tutorials/DAY%201/D1-03%20Manual%20LCA%20with%20NumPy%20matrices%20-%20Heijungs%20and%20Suh%202002%20vs%20Brightway.ipynb)
-- [D1-04 First LCA from demand to score in Brightway](tutorials/DAY%201/D1-04%20First%20LCA%20from%20demand%20to%20score%20in%20Brightway.ipynb)
+Manual matrix LCA, `brightway` first LCA, and BAFU:2025 import
+- [D1-03 Manual LCA with `numpy` matrices - Heijungs and Suh 2002 vs `brightway`](tutorials/DAY%201/D1-03%20Manual%20LCA%20with%20NumPy%20matrices%20-%20Heijungs%20and%20Suh%202002%20vs%20Brightway.ipynb)
+- [D1-04 First LCA from demand to score in `brightway`](tutorials/DAY%201/D1-04%20First%20LCA%20from%20demand%20to%20score%20in%20Brightway.ipynb)
 
 ### 13:00 - 15:00
 Lunch break
@@ -49,8 +49,8 @@ Day 1 recap and environment checks
 - [D2-01 Day 1 recap and readiness checks](tutorials/DAY%202/D2-01%20Day%201%20recap%20and%20readiness%20checks.ipynb)
 
 ### 10:00 - 11:00
-Edges fundamentals
-- [D2-02 Edges fundamentals and regionalisation concepts](tutorials/DAY%202/D2-02%20Edges%20fundamentals%20and%20regionalisation%20concepts.ipynb)
+`edges` fundamentals
+- [D2-02 `edges` fundamentals and regionalisation concepts](tutorials/DAY%202/D2-02%20Edges%20fundamentals%20and%20regionalisation%20concepts.ipynb)
 
 ### 11:00 - 11:15
 Coffee break

@@ -6,7 +6,7 @@ The references below are formatted in APA style using publisher/DOI metadata.
 ## Suggested Reading List
 
 1. Sacchi, R., Menacho, A. H., Seitfudem, G., Agez, M., Schlesinger-Martinat, J., Koyamparambath, A., Saldivar, J. S., Loubet, P., & Bauer, C. (2025). Contextual LCIA without the overhead: an exchange-based framework for flexible impact assessment. *The International Journal of Life Cycle Assessment, 30*(12), 3087-3101. https://doi.org/10.1007/s11367-025-02551-7
-Description: Introduces an exchange-based approach for contextual and flexible LCIA, directly relevant for understanding Edges-style regionalized and scenario-aware impact modeling.
+Description: Introduces an exchange-based approach for contextual and flexible LCIA, directly relevant for understanding `edges`-style regionalized and scenario-aware impact modeling.
 Link: https://link.springer.com/article/10.1007/s11367-025-02551-7
 
 2. Seitfudem, G., Berger, M., Schmied, H. M., & Boulay, A. (2025). The updated and improved method for water scarcity impact assessment in LCA, AWARE2.0. *Journal of Industrial Ecology, 29*(3), 891-907. https://doi.org/10.1111/jiec.70023

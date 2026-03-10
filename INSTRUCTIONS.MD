@@ -119,7 +119,7 @@ python -c "import bw2data, bw2calc, bw2io; print('Brightway core import: OK')"
 ## 6) Prepare the BAFU:2025 inventory file
 
 This course uses the **BAFU:2025** open-access LCA database as a
-Brightway-compatible Excel inventory file.
+`brightway`-compatible Excel inventory file.
 
 Database page:
 - https://nexus.openlca.org/database/BAFU
@@ -130,7 +130,7 @@ Place the Excel inventory file in:
 Recommended filename:
 - `BAFU_2025_inventory.xlsx`
 
-The actual Brightway import is done during Day 1 in:
+The actual `brightway` import is done during Day 1 in:
 - `tutorials/DAY 1/D1-04 First LCA from demand to score in Brightway.ipynb`
 
 ## 7) Launch Jupyter Lab and run setup notebook
