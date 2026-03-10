@@ -1,6 +1,6 @@
 # Regionalised LCIA Course (Barcelona 2026)
 
-![Sagrada Familia in Barcelona](_images/Sagrada_Família._Façana_del_Naixement.jpg)
+![Sagrada Familia in Barcelona](_images/Sagrada_Família.jpg)
 
 ## Course Overview
 
