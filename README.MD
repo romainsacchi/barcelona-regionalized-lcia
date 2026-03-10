@@ -1,6 +1,6 @@
 # Regionalised LCIA Course (Barcelona 2026)
 
-![Sagrada Familia in Barcelona](_images/Sagrada_Família.jpg)
+![Sagrada Familia in Barcelona](_images/sagrada-familia.jpg)
 
 ## Course Overview
 
@@ -72,7 +72,7 @@ Follow [INSTRUCTIONS.MD](INSTRUCTIONS.MD) and complete:
 ## Software
 
 Core environment files are in `envs/`:
-- `bw2_env_osxARM.yaml` or `bw2_env_win64.yaml`
+- `bw2_env_win64.yaml` (for Windows computers) or `bw2_env_osxARM.yaml` (for Mac computers with Apple Silicon chips)
 
 ## Teaching Staff
 
