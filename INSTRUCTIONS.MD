@@ -14,14 +14,14 @@ If you get stuck, contact:
 ## What these tools are for
 
 - `Git`: downloads and updates this course repository.
-- `Conda`: installs Python packages in an isolated environment.
+- `Miniforge` / `conda`: installs Python packages in an isolated environment.
 - `Jupyter Lab`: runs the tutorial notebooks.
 
-## 1) Install Git and Conda
+## 1) Install Git and Miniforge
 
 Install:
 - Git: https://git-scm.com/downloads
-- Anaconda: https://www.anaconda.com/products/distribution
+- Miniforge (official installers): https://github.com/conda-forge/miniforge/releases/latest
 
 Mac (with Homebrew) example for Git:
 
@@ -29,14 +29,40 @@ Mac (with Homebrew) example for Git:
 brew install git
 ```
 
-Check that both tools are available:
+### Miniforge installation
+
+Mac users:
+
+- Open `Terminal`
+- Download and run the official installer for your Mac architecture:
+
+```bash
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-$(uname -m).sh"
+bash Miniforge3-MacOSX-$(uname -m).sh
+```
+
+- Accept the prompt to initialize `conda` for your shell.
+
+Windows users:
+
+- Download `Miniforge3-Windows-x86_64.exe`
+- Run the installer and keep the Start Menu shortcuts enabled.
+- After installation, open the **Miniforge Prompt** from the Start Menu. This is the recommended shell for using `conda` on Windows.
+- If possible, install Miniforge in a path without spaces or special characters.
+
+Check that both tools are available.
+On Mac, use `Terminal`.
+On Windows, use `Miniforge Prompt`:
 
 ```bash
 git --version
 conda --version
 ```
 
-If `conda` is not found, close and reopen your terminal, then try again.
+If `conda` is not found:
+
+- On Mac, close and reopen `Terminal`, then try again.
+- On Windows, make sure you are in `Miniforge Prompt`. If you want to use another shell later, run `conda init`, close the shell, and reopen it.
 
 ## 2) Open a terminal and understand your location
 
@@ -48,6 +74,11 @@ ls         # lists files/folders in the current folder
 cd ..      # go one level up
 cd <name>  # go into folder <name>
 ```
+
+Recommended shell:
+
+- Mac: `Terminal`
+- Windows: `Miniforge Prompt`
 
 Example: go to `Documents` before cloning:
 
@@ -103,7 +134,7 @@ You should see `bw2` in the list.
 
 ## 5) Activate `bw2` and run a quick check
 
-Activate:
+Activate in the same shell (`Terminal` on Mac or `Miniforge Prompt` on Windows):
 
 ```bash
 conda activate bw2
@@ -116,7 +147,7 @@ python --version
 python -c "import bw2data, bw2calc, bw2io; print('Brightway core import: OK')"
 ```
 
-## 6) Prepare the BAFU:2025 inventory file
+## 6) Confirm the bundled BAFU:2025 inventory file
 
 This course uses the **BAFU:2025** open-access LCA database as a
 `brightway`-compatible Excel inventory file.
@@ -124,14 +155,17 @@ This course uses the **BAFU:2025** open-access LCA database as a
 Database page:
 - https://nexus.openlca.org/database/BAFU
 
-Place the Excel inventory file in:
-- `tutorials/DAY 1/assets/`
+The Brightway-compatible Excel file is already included in this repository:
+- `data/lci-bafu.xlsx`
 
-Recommended filename:
-- `BAFU_2025_inventory.xlsx`
+You do **not** need to download the database from the website above for this course.
+The link is provided as a reference and for the terms of use.
 
 The actual `brightway` import is done during Day 1 in:
 - `tutorials/DAY 1/D1-04 First LCA from demand to score in Brightway.ipynb`
+
+During Day 1, we will also show how an `ecoinvent` import workflow fits into a `brightway` setup for participants who use that database.
+However, `ecoinvent` is not included in this repository and will not be used during the three-day hands-on course because of licensing constraints.
 
 ## 7) Launch Jupyter Lab and run setup notebook
 

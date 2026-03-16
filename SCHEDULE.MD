@@ -23,7 +23,7 @@ Welcome, setup check, course roadmap
 Coffee break
 
 ### 11:00 - 13:00
-Manual matrix LCA, `brightway` first LCA, and BAFU:2025 import
+Manual matrix LCA, `brightway` first LCA, BAFU:2025 import, and `ecoinvent` import overview
 - [D1-03 Manual LCA with `numpy` matrices - Heijungs and Suh 2002 vs `brightway`](tutorials/DAY%201/D1-03%20Manual%20LCA%20with%20NumPy%20matrices%20-%20Heijungs%20and%20Suh%202002%20vs%20Brightway.ipynb)
 - [D1-04 First LCA from demand to score in `brightway`](tutorials/DAY%201/D1-04%20First%20LCA%20from%20demand%20to%20score%20in%20Brightway.ipynb)
 

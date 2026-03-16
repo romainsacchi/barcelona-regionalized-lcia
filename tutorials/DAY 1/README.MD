@@ -10,5 +10,9 @@
 
 Assets for exercises are in `assets/`.
 
-For `D1-04`, place the BAFU inventory Excel file in:
-- `assets/BAFU_2025_inventory.xlsx`
+For `D1-04`, the bundled BAFU inventory Excel file is:
+- `../../data/lci-bafu.xlsx`
+
+During Day 1, participants import this bundled BAFU file into `brightway`.
+The session also includes an `ecoinvent` import overview for participants who work with that database,
+but `ecoinvent` is not included in this repository and is not used in the course exercises because of licensing constraints.

@@ -22,7 +22,7 @@ By the end of the course, participants will be able to:
 - Explain `brightway`'s architecture and matrix-based LCA computation flow.
 - Build and run LCA models in Python.
 - Perform uncertainty analysis and contribution analysis.
-- Import and analyze a national LCA inventory database from Excel.
+- Import and analyze a national LCA inventory database from Excel, and understand how a similar import workflow applies to `ecoinvent`.
 - Run regionalised LCIA workflows with `edges`.
 - Implement scenario-based LCIA with parameterised characterization factors.
 - Perform inventory flow assessment and interpret supply-chain criticality signals.
@@ -38,8 +38,17 @@ By the end of the course, participants will be able to:
 This course uses the **BAFU:2025** LCA database (open access), provided by the
 Swiss Federal Office for the Environment (FOEN) as a `brightway`-compatible Excel inventory file.
 
+The Brightway-compatible Excel file used during the course is already included in this repository:
+- `data/lci-bafu.xlsx`
+
+Participants do **not** need to download the database before the course.
+On Day 1, participants will import the bundled BAFU file into `brightway`.
+
+We will also explain how to import the `ecoinvent` LCA database for participants who work with it.
+However, `ecoinvent` is **not** included in this repository and is **not** used in the course exercises because of licensing constraints.
+
 Database page:
-- https://nexus.openlca.org/database/BAFU
+- https://nexus.openlca.org/database/BAFU (reference and terms-of-use page)
 
 ## Terms of Use (BAFU:2025)
 
@@ -55,8 +64,9 @@ Requirements:
 
 ## Repository Structure
 
+- `data/`: bundled course data, including the BAFU Excel inventory used on Day 1
 - [tutorials/00_SETUP/](tutorials/00_SETUP/README.MD): pre-course setup and first checks
-- [tutorials/DAY 1/](tutorials/DAY%201/README.MD): `brightway` foundations + BAFU Excel import
+- [tutorials/DAY 1/](tutorials/DAY%201/README.MD): `brightway` foundations + BAFU import + `ecoinvent` import overview
 - [tutorials/DAY 2/](tutorials/DAY%202/README.MD): regionalised LCIA with `edges`
 - [tutorials/DAY 3/](tutorials/DAY%203/README.MD): scenario LCIA and inventory flow assessment
 
@@ -68,6 +78,8 @@ See the detailed agenda with notebook mapping in [SCHEDULE.MD](SCHEDULE.MD).
 
 Follow [INSTRUCTIONS.MD](INSTRUCTIONS.MD) and complete:
 - `tutorials/00_SETUP/00 - Setup and First Checks.ipynb`
+
+No database download is required before arrival; the BAFU workbook is already included under `data/`.
 
 ## Software
 
