@@ -1,0 +1,27 @@
+# in your terminal, run conda: conda env create -f bw_env_win64.yaml
+
+name: bw
+channels:
+  - conda-forge
+  - cmutel
+  - defaults
+dependencies:
+  - python=3.11
+  - bw2calc
+  - bw2data
+  - bw2io
+  - bw2analyzer
+  - pypardiso
+  - scipy
+  - numpy<2.0.0
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - edges
+  - pip
+  - setuptools<81
+  - pip:
+      - multifunctional
+      - bw_simapro_csv
+      - git+https://github.com/romainsacchi/d3blocks.git
+      - polyviz
