@@ -84,7 +84,7 @@ No database download is required before arrival; the BAFU workbook is already in
 ## Software
 
 Core environment files are in `envs/`:
-- `bw2_env_win64.yaml` (for Windows computers) or `bw2_env_osxARM.yaml` (for Mac computers with Apple Silicon chips)
+- `bw_env_win64.yaml` (for Windows computers) or `bw_env_osxARM.yaml` (for Mac computers with Apple Silicon chips)
 
 ## Teaching Staff
 
