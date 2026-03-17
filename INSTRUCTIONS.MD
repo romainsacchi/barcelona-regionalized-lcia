@@ -70,7 +70,8 @@ These commands help you navigate folders:
 
 ```bash
 pwd        # shows your current folder
-ls         # lists files/folders in the current folder
+ls         # for Mac, lists files/folders in the current folder
+dir        # for Windows, lists files/folders in the current folder
 cd ..      # go one level up
 cd <name>  # go into folder <name>
 ```
@@ -101,8 +102,9 @@ cd barcelona-regionalized-lcia
 ```
 
 `git clone` creates a local copy of the course material on your computer.
+<repository-url> is the URL of this repository, *ending with .git*, which you can copy from the GitHub page.
 
-## 4) Create the course environment (`bw2`)
+## 4) Create the course environment (`bw`)
 
 From the repository root, go to `envs`:
 
@@ -115,13 +117,13 @@ Choose one command:
 - Mac Apple Silicon (M1/M2/M3/M4):
 
 ```bash
-conda env create -f bw2_env_osxARM.yaml
+conda env create -f bw_env_osxARM.yaml
 ```
 
 - Windows or Mac Intel:
 
 ```bash
-conda env create -f bw2_env_win64.yaml
+conda env create -f bw_env_win64.yaml
 ```
 
 Then verify that the environment exists:
@@ -130,14 +132,14 @@ Then verify that the environment exists:
 conda env list
 ```
 
-You should see `bw2` in the list.
+You should see `bw` in the list.
 
-## 5) Activate `bw2` and run a quick check
+## 5) Activate `bw` and run a quick check
 
 Activate in the same shell (`Terminal` on Mac or `Miniforge Prompt` on Windows):
 
 ```bash
-conda activate bw2
+conda activate bw
 ```
 
 Quick checks:
@@ -146,6 +148,9 @@ Quick checks:
 python --version
 python -c "import bw2data, bw2calc, bw2io; print('Brightway core import: OK')"
 ```
+
+There should be no error messages, and the last line should print `Brightway core import: OK`.
+
 
 ## 6) Confirm the bundled BAFU:2025 inventory file
 
@@ -169,7 +174,7 @@ However, `ecoinvent` is not included in this repository and will not be used dur
 
 ## 7) Launch Jupyter Lab and run setup notebook
 
-From the repository root:
+From the *repository root* (you might still be in `envs/` after creating the environment, so go back up one level, using `cd ..`):
 
 ```bash
 jupyter lab
