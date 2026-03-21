@@ -4,7 +4,7 @@
 
 ## Course Overview
 
-This repository contains all material for the 3-day course:
+Welcome! This repository contains all material for the 3-day course:
 **Regionalised LCIA for Beginner and Intermediate `brightway` users**.
 
 The core course focuses on:

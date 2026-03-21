@@ -15,6 +15,7 @@ dependencies:
   - scikit-umfpack
   - jupyterlab
   - matplotlib
+  - networkx
   - seaborn
   - edges
   - pip
