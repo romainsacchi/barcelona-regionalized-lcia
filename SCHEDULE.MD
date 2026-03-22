@@ -56,23 +56,24 @@ Day 1 recap and environment checks
 Coffee break
 
 ### 11:15 - 13:00
-Spatial matching and regionalised methods
-- [D2-03 Spatial matching and fallback logic](tutorials/DAY%202/D2-03%20Spatial%20matching%20and%20fallback%20logic.ipynb)
-- [D2-04 Regionalised methods across impact categories](tutorials/DAY%202/D2-04%20Regionalised%20methods%20across%20impact%20categories.ipynb)
+`edges` workflow, spatial matching, and regionalised methods
+- [D2-03 Introduction to `edges` workflow and API](tutorials/DAY%202/D2-03%20Introduction%20to%20edges%20workflow%20and%20API.ipynb)
+- [D2-04 Spatial matching and fallback logic](tutorials/DAY%202/D2-04%20Spatial%20matching%20and%20fallback%20logic.ipynb)
+- [D2-05 Regionalised methods across impact categories](tutorials/DAY%202/D2-05%20Regionalised%20methods%20across%20impact%20categories.ipynb)
 
 ### 13:00 - 15:00
 Lunch break
 
 ### 15:00 - 16:30
 Variability and uncertainty in regionalised LCIA
-- [D2-05 Variability and uncertainty in regionalised LCIA](tutorials/DAY%202/D2-05%20Variability%20and%20uncertainty%20in%20regionalised%20LCIA.ipynb)
+- [D2-06 Variability and uncertainty in regionalised LCIA](tutorials/DAY%202/D2-06%20Variability%20and%20uncertainty%20in%20regionalised%20LCIA.ipynb)
 
 ### 16:30 - 17:00
 Coffee break
 
 ### 17:00 - 19:00
-Case study: regionalised electricity mix
-- [D2-06 Case study - Regionalised electricity mix](tutorials/DAY%202/D2-06%20Case%20study%20-%20Regionalised%20electricity%20mix.ipynb)
+Case study: regionalised hydrogen pathways
+- [D2-07 Case study - Regionalised hydrogen pathways](tutorials/DAY%202/D2-07%20Case%20study%20-%20Regionalised%20hydrogen%20pathways.ipynb)
 
 ## DAY 3 (Friday 29, 2026) - Scenario LCIA and Inventory Flow Assessment
 
