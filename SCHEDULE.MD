@@ -9,7 +9,7 @@ Complete:
 - [INSTRUCTIONS.MD](INSTRUCTIONS.MD)
 - [tutorials/00_SETUP/00 - Setup and First Checks.ipynb](tutorials/00_SETUP/00%20-%20Setup%20and%20First%20Checks.ipynb)
 
-## DAY 1 (Wednesday 27, 2026) - `brightway` Foundations
+## DAY 1 (Wednesday, May 27, 2026) - `brightway` Foundations
 
 ### 09:00 - 09:30
 Welcome, setup check, course roadmap
@@ -42,7 +42,7 @@ Data QA/linking workflow and contribution analysis
 - [D1-06 Data quality checks and linking workflow](tutorials/DAY%201/D1-06%20Data%20quality%20checks%20and%20linking%20workflow.ipynb)
 - [D1-07 Contribution analysis and result visualization](tutorials/DAY%201/D1-07%20Contribution%20analysis%20and%20result%20visualization.ipynb)
 
-## DAY 2 (Thursday 28, 2026) - Regionalised LCIA
+## DAY 2 (Thursday, May 28, 2026) - Regionalised LCIA
 
 ### 09:00 - 10:00
 Day 1 recap and environment checks
@@ -75,18 +75,26 @@ Coffee break
 Case study: regionalised hydrogen pathways
 - [D2-07 Case study - Regionalised hydrogen pathways](tutorials/DAY%202/D2-07%20Case%20study%20-%20Regionalised%20hydrogen%20pathways.ipynb)
 
-## DAY 3 (Friday 29, 2026) - Scenario LCIA and Inventory Flow Assessment
+## DAY 3 (Friday, May 29, 2026) - Scenario LCIA and Inventory Flow Assessment
 
 ### 09:00 - 10:00
 Day 2 recap and scenario framing
 - [D3-01 Day 2 recap and scenario framing](tutorials/DAY%203/D3-01%20Day%202%20recap%20and%20scenario%20framing.ipynb)
 
-### 10:00 - 12:00
+### 10:00 - 11:00
 Scenario-based LCIA with parameterised CFs
 - [D3-02 Parameterised CFs for scenario-based LCIA](tutorials/DAY%203/D3-02%20Parameterised%20CFs%20for%20scenario-based%20LCIA.ipynb)
 - [D3-03 Time and scenario integration workflow](tutorials/DAY%203/D3-03%20Time%20and%20scenario%20integration%20workflow.ipynb)
 
-### 12:00 - 13:00
+### 11:00 - 11:15
+Coffee break
+
+### 11:15 - 12:15
+Scenario-based LCIA with parameterised CFs
+- [D3-02 Parameterised CFs for scenario-based LCIA](tutorials/DAY%203/D3-02%20Parameterised%20CFs%20for%20scenario-based%20LCIA.ipynb)
+- [D3-03 Time and scenario integration workflow](tutorials/DAY%203/D3-03%20Time%20and%20scenario%20integration%20workflow.ipynb)
+
+### 12:15 - 13:00
 Inventory flow assessment I
 - [D3-04 Inventory flow assessment I - tracing intermediates](tutorials/DAY%203/D3-04%20Inventory%20flow%20assessment%20I%20-%20tracing%20intermediates.ipynb)
 
@@ -97,6 +105,9 @@ Lunch break
 Inventory flow assessment II
 - [D3-05 Inventory flow assessment II - criticality factors](tutorials/DAY%203/D3-05%20Inventory%20flow%20assessment%20II%20-%20criticality%20factors.ipynb)
 
-### 16:00 - 19:00
+### 16:00 - 16:15
+Coffee break
+
+### 16:15 - 19:00
 Capstone dual case study and wrap-up
 - [D3-06 Capstone dual case study](tutorials/DAY%203/D3-06%20Capstone%20dual%20case%20study.ipynb)

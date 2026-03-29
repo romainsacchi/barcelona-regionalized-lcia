@@ -1,4 +1,4 @@
-# Regionalised LCIA Course (Barcelona 2026)
+# Regionalised LCIA Course (Barcelona, May 27-29, 2026)
 
 ![Sagrada Familia in Barcelona](_images/sagrada-familia.jpg)
 
@@ -16,6 +16,13 @@ The core course focuses on:
 The format mixes short lectures and hands-on notebook sessions.
 All material remains available after the course.
 
+## Quick Links
+
+- [INSTRUCTIONS.MD](INSTRUCTIONS.MD): pre-arrival setup and installation steps
+- [SCHEDULE.MD](SCHEDULE.MD): day-by-day agenda with notebook mapping
+- [READING_MATERIAL.md](READING_MATERIAL.md): recommended pre-course reading
+- [HOME_ASSIGNMENT.md](HOME_ASSIGNMENT.md): optional post-course assignment
+
 ## Learning Outcomes
 
 By the end of the course, participants will be able to:
@@ -32,6 +39,13 @@ By the end of the course, participants will be able to:
 - LCA practitioners with beginner or intermediate Python skills.
 - No prior `brightway` experience required.
 - Participants should already know core LCA concepts.
+
+If you are completely new to Python, we recommend spending a few hours on a beginner tutorial before the course.
+We suggest the University of Helsinki's online tutorial, which requires no installation:
+- https://programming-25.mooc.fi/part-1/1-getting-started
+
+For this course, the `Introduction to Programming` section is sufficient.
+You do not need to complete the `Advanced Course in Programming` section.
 
 ## Database Used in the Course
 
@@ -69,17 +83,35 @@ Requirements:
 - [tutorials/DAY 1/](tutorials/DAY%201/README.MD): `brightway` foundations + BAFU import + `ecoinvent` import overview
 - [tutorials/DAY 2/](tutorials/DAY%202/README.MD): regionalised LCIA with `edges`
 - [tutorials/DAY 3/](tutorials/DAY%203/README.MD): scenario LCIA and inventory flow assessment
+- [READING_MATERIAL.md](READING_MATERIAL.md): suggested background reading
+- [HOME_ASSIGNMENT.md](HOME_ASSIGNMENT.md): optional post-course assignment
 
 ## Day-by-Day Notebooks
 
 See the detailed agenda with notebook mapping in [SCHEDULE.MD](SCHEDULE.MD).
+
+## Recommended Workflow
+
+Participants should work through the repository in this order:
+1. Follow [INSTRUCTIONS.MD](INSTRUCTIONS.MD).
+2. Run `tutorials/00_SETUP/00 - Setup and First Checks.ipynb`.
+3. Complete Day 1, then Day 2, then Day 3 in the order shown in [SCHEDULE.MD](SCHEDULE.MD).
+4. Keep using the same `bw` conda environment and the same Brightway project created on Day 1, because later notebooks build on that state.
 
 ## Before the Course
 
 Follow [INSTRUCTIONS.MD](INSTRUCTIONS.MD) and complete:
 - `tutorials/00_SETUP/00 - Setup and First Checks.ipynb`
 
+If you are new to Python, spend a few hours on a beginner tutorial before arrival.
+We recommend the University of Helsinki online tutorial, which requires no installation:
+- https://programming-25.mooc.fi/part-1/1-getting-started
+
+For our purposes, the `Introduction to Programming` section is sufficient.
+You do not need the `Advanced Course in Programming` section.
+
 No database download is required before arrival; the BAFU workbook is already included under `data/`.
+Internet access is still needed for software installation, package downloads, and the first download of the prepared Brightway project archive used in Day 1.
 
 ## Software
 
@@ -91,7 +123,7 @@ Core environment files are in `envs/`:
 - Instructors: 
   - [Romain Sacchi](mailto:romain.sacchi@psi.ch), Paul Scherrer Institute (PSI)
   - [Miguel Astudillo](mailto:miguel.astudillo@2-0-LCA.com), 2-0 LCA
-- Location: ILCA, Barcelona, Spring 2026
+- Location: ILCA, Barcelona, May 27-29, 2026
 - Format: lectures + hands-on workshops
 
 ## License

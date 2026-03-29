@@ -11,11 +11,29 @@ If you get stuck, contact:
 - Minimum: `8 GB` RAM
 - Preferred: `16 GB` RAM
 
+## Before you start
+
+- A stable internet connection is needed to install Git, Miniforge, and the Python packages in the `bw` environment.
+- On Day 1, the notebooks also download a prepared Brightway project archive the first time it is installed into your local Brightway workspace.
+- No separate database download is required for the course BAFU workbook; `data/lci-bafu.xlsx` is already bundled in this repository.
+
 ## What these tools are for
 
 - `Git`: downloads and updates this course repository.
 - `Miniforge` / `conda`: installs Python packages in an isolated environment.
 - `Jupyter Lab`: runs the tutorial notebooks.
+
+## If you are new to Python
+
+If you are completely new to Python, we recommend spending a few hours on a beginner tutorial before the course.
+We suggest the University of Helsinki's online tutorial, which requires no installation:
+
+- https://programming-25.mooc.fi/part-1/1-getting-started
+
+For this course, the `Introduction to Programming` section is sufficient.
+You do not need to complete the `Advanced Course in Programming` section.
+
+This will make the Day 1 Python and Jupyter refresher much easier to follow.
 
 ## 1) Install Git and Miniforge
 
@@ -97,12 +115,12 @@ You have two options:
 Terminal example:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/romainsacchi/barcelona-regionalized-lcia.git
 cd barcelona-regionalized-lcia
 ```
 
 `git clone` creates a local copy of the course material on your computer.
-<repository-url> is the URL of this repository, *ending with .git*, which you can copy from the GitHub page.
+The repository URL above ends with `.git`, which is the standard clone URL shown on the GitHub page.
 
 ## 4) Create the course environment (`bw`)
 
@@ -183,6 +201,9 @@ jupyter lab
 Then open and run all cells in:
 
 - `tutorials/00_SETUP/00 - Setup and First Checks.ipynb`
+
+Keep the same `bw` environment for the full course.
+Day 2 and Day 3 assume that the Brightway project created on Day 1 is still available.
 
 ## 8) Terms of use and citation requirements (BAFU:2025)
 

@@ -1,6 +1,6 @@
 # Pre-Course Reading Material
 
-This reading list is recommended before the Barcelona 2026 regionalized LCIA course.
+This reading list is recommended before the Barcelona regionalized LCIA course on May 27-29, 2026.
 The references below are formatted in APA style using publisher/DOI metadata.
 
 ## Suggested Reading List
