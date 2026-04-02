@@ -40,12 +40,17 @@ By the end of the course, participants will be able to:
 - No prior `brightway` experience required.
 - Participants should already know core LCA concepts.
 
+
+---
+**NOTE**
+
 If you are completely new to Python, we recommend spending a few hours on a beginner tutorial before the course.
 We suggest the University of Helsinki's online tutorial, which requires no installation:
 - https://programming-25.mooc.fi/part-1/1-getting-started
 
 For this course, the `Introduction to Programming` section is sufficient.
-You do not need to complete the `Advanced Course in Programming` section.
+
+---
 
 ## Database Used in the Course
 
@@ -123,7 +128,7 @@ Core environment files are in `envs/`:
 - Instructors: 
   - [Romain Sacchi](mailto:romain.sacchi@psi.ch), Paul Scherrer Institute (PSI)
   - [Miguel Astudillo](mailto:miguel.astudillo@2-0-LCA.com), 2-0 LCA
-- Location: ILCA, Barcelona, May 27-29, 2026
+- Location: ILCA, Av del Portal de l'Àngel, 36, Ciutat Vella, 08002 Barcelona, Spain
 - Format: lectures + hands-on workshops
 
 ## License
