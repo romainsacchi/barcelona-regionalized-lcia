@@ -17,7 +17,6 @@ dependencies:
   - stats_arrays
   - pypardiso
   - scipy
-  - lca::activity-browser
   - jupyterlab
   - numpy
   - pandas
@@ -32,8 +31,10 @@ dependencies:
   - country_converter
   - pip
   - setuptools<81
+
   - pip:
       - multifunctional
       - bw_simapro_csv
       - git+https://github.com/romainsacchi/d3blocks.git
       - polyviz
+      - activity-browser
