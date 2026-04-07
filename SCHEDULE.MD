@@ -78,12 +78,12 @@ Case study: regionalised hydrogen pathways
 ## DAY 3 (Friday, May 29, 2026) - Scenario LCIA and Inventory Flow Assessment
 
 ### 09:00 - 10:00
-Day 2 recap and scenario framing
-- [D3-01 Day 2 recap and scenario framing](tutorials/DAY%203/D3-01%20Day%202%20recap%20and%20scenario%20framing.ipynb)
+Day 2 recap and Day 3 readiness checks
+- [D3-01 Day 2 recap and Day 3 readiness checks](tutorials/DAY%203/D3-01%20Day%202%20recap%20and%20Day%203%20readiness%20checks.ipynb)
 
 ### 10:00 - 11:00
 Scenario-based LCIA with parameterised CFs
-- [D3-02 Parameterised CFs for scenario-based LCIA](tutorials/DAY%203/D3-02%20Parameterised%20CFs%20for%20scenario-based%20LCIA.ipynb)
+- [D3-02 Parameterised characterization factors with edges](tutorials/DAY%203/D3-02%20Parameterised%20characterization%20factors%20with%20edges.ipynb)
 - [D3-03 Time and scenario integration workflow](tutorials/DAY%203/D3-03%20Time%20and%20scenario%20integration%20workflow.ipynb)
 
 ### 11:00 - 11:15
@@ -91,7 +91,7 @@ Coffee break
 
 ### 11:15 - 12:15
 Scenario-based LCIA with parameterised CFs
-- [D3-02 Parameterised CFs for scenario-based LCIA](tutorials/DAY%203/D3-02%20Parameterised%20CFs%20for%20scenario-based%20LCIA.ipynb)
+- [D3-02 Parameterised characterization factors with edges](tutorials/DAY%203/D3-02%20Parameterised%20characterization%20factors%20with%20edges.ipynb)
 - [D3-03 Time and scenario integration workflow](tutorials/DAY%203/D3-03%20Time%20and%20scenario%20integration%20workflow.ipynb)
 
 ### 12:15 - 13:00

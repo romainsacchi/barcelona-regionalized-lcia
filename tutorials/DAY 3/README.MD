@@ -7,12 +7,13 @@ Before starting Day 3, make sure that:
 - the Day 2 regionalised LCIA work completed successfully in that same project
 - you are ready to continue with the lighter concept-and-exercise scaffold used in the Day 3 notebooks
 
-1. `D3-01 Day 2 recap and scenario framing.ipynb`
-2. `D3-02 Parameterised CFs for scenario-based LCIA.ipynb`
+1. `D3-01 Day 2 recap and Day 3 readiness checks.ipynb`
+2. `D3-02 Parameterised characterization factors with edges.ipynb`
 3. `D3-03 Time and scenario integration workflow.ipynb`
 4. `D3-04 Inventory flow assessment I - tracing intermediates.ipynb`
 5. `D3-05 Inventory flow assessment II - criticality factors.ipynb`
 6. `D3-06 Capstone dual case study.ipynb`
 
 The `assets/` folder is reserved for Day 3 support files.
-The current Day 3 notebooks do not require additional local asset files beyond the project state built earlier in the course.
+`D3-02` now loads example method JSON files from `assets/d3-02/`.
+The other Day 3 notebooks still mainly rely on the Brightway project state built earlier in the course.
