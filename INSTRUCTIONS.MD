@@ -169,6 +169,37 @@ python -c "import bw2data, bw2calc, bw2io; print('Brightway core import: OK')"
 
 There should be no error messages, and the last line should print `Brightway core import: OK`.
 
+### Apple Silicon note about the sparse solver warning
+
+On Apple Silicon, `bw2calc` may print a warning about missing `scikit-umfpack`.
+In this course environment, this usually means the `bw` environment drifted and
+`setuptools` became too new, which breaks the legacy `scikits.umfpack` import.
+
+If you see this warning after activating `bw`, run:
+
+```bash
+conda activate bw
+conda install "setuptools<81"
+```
+
+Then verify:
+
+```bash
+python -c "import scikits.umfpack; print('UMFPACK import: OK')"
+```
+
+If the environment is still inconsistent, recreate it from the YAML file.
+
+If a failed `conda env update` leaves imports like `bw2calc` or
+`scikits.umfpack` broken, repair the packaging tools first:
+
+```bash
+conda activate bw
+conda install --force-reinstall "setuptools<81" "pip<26"
+```
+
+Then retry the environment update if needed.
+
 
 ## 6) Confirm the bundled BAFU:2025 inventory file
 

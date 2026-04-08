@@ -1,0 +1,23 @@
+{
+  "name": "Tracked municipal incineration routes",
+  "version": "1.0",
+  "description": "Counts technosphere waste-treatment exchanges routed to municipal incineration in kilograms.",
+  "unit": "kg routed",
+  "strategies": [
+    "map_exchanges"
+  ],
+  "exchanges": [
+    {
+      "supplier": {
+        "name": "municipal incineration",
+        "operator": "contains",
+        "matrix": "technosphere",
+        "unit": "kilogram"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 1.0
+    }
+  ]
+}

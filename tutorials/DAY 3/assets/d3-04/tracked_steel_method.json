@@ -1,0 +1,30 @@
+{
+  "name": "Tracked steel intermediates",
+  "version": "1.0",
+  "description": "Counts technosphere exchanges to steel-containing intermediates in kilograms while excluding markets, imports, transport, disposal, and treatment.",
+  "unit": "kg traced",
+  "strategies": [
+    "map_exchanges"
+  ],
+  "exchanges": [
+    {
+      "supplier": {
+        "reference product": "steel",
+        "operator": "contains",
+        "matrix": "technosphere",
+        "unit": "kilogram",
+        "excludes": [
+          "market",
+          "import",
+          "transport",
+          "disposal",
+          "treatment"
+        ]
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 1.0
+    }
+  ]
+}

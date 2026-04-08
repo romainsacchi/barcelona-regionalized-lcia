@@ -1,0 +1,29 @@
+{
+  "name": "Tracked electricity intermediates",
+  "version": "1.0",
+  "description": "Counts technosphere electricity exchanges in kilowatt hours while excluding markets and imports.",
+  "unit": "kWh traced",
+  "strategies": [
+    "map_exchanges"
+  ],
+  "exchanges": [
+    {
+      "supplier": {
+        "reference product": "Electricity",
+        "operator": "startswith",
+        "matrix": "technosphere",
+        "unit": "kilowatt hour",
+        "excludes": [
+          "market",
+          "import",
+          "voltage",
+          "mix"
+        ]
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 1.0
+    }
+  ]
+}

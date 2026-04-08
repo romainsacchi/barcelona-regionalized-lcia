@@ -1,0 +1,23 @@
+{
+  "name": "Tracked recycling routes",
+  "version": "1.0",
+  "description": "Counts technosphere waste-treatment exchanges routed to recycling in kilograms.",
+  "unit": "kg routed",
+  "strategies": [
+    "map_exchanges"
+  ],
+  "exchanges": [
+    {
+      "supplier": {
+        "name": "to recycling",
+        "operator": "contains",
+        "matrix": "technosphere",
+        "unit": "kilogram"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 1.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Tracked residual material landfill routes",
+  "version": "1.0",
+  "description": "Counts technosphere waste-treatment exchanges routed to residual material landfill in kilograms.",
+  "unit": "kg routed",
+  "strategies": [
+    "map_exchanges"
+  ],
+  "exchanges": [
+    {
+      "supplier": {
+        "name": "residual material landfill",
+        "operator": "contains",
+        "matrix": "technosphere",
+        "unit": "kilogram"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 1.0
+    }
+  ]
+}

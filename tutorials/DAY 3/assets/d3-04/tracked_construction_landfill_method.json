@@ -1,0 +1,23 @@
+{
+  "name": "Tracked construction waste landfill routes",
+  "version": "1.0",
+  "description": "Counts technosphere waste-treatment exchanges routed to construction waste landfill in kilograms.",
+  "unit": "kg routed",
+  "strategies": [
+    "map_exchanges"
+  ],
+  "exchanges": [
+    {
+      "supplier": {
+        "name": "construction waste landfill",
+        "operator": "contains",
+        "matrix": "technosphere",
+        "unit": "kilogram"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 1.0
+    }
+  ]
+}
