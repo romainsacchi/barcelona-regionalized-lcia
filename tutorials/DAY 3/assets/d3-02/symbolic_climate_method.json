@@ -1,0 +1,44 @@
+{
+  "name": "Symbolic climate method for D3-02",
+  "unit": "kg CO2-eq",
+  "version": "1.0",
+  "description": "Symbolic GWP100 characterization factors for carbon dioxide, methane, and dinitrogen monoxide. Methane and N2O keep only the concentration-dependent 1/sqrt(C) term, while carbon dioxide stays fixed at 1. The startswith operator captures fossil and non-fossil name variants.",
+  "strategies": [
+    "map_exchanges"
+  ],
+  "exchanges": [
+    {
+      "supplier": {
+        "name": "Carbon dioxide",
+        "operator": "startswith",
+        "matrix": "biosphere"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 1.0
+    },
+    {
+      "supplier": {
+        "name": "Methane",
+        "operator": "startswith",
+        "matrix": "biosphere"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": "ch4_gwp100_reference * sqrt(ch4_reference_ppb / ch4_concentration_ppb)"
+    },
+    {
+      "supplier": {
+        "name": "Dinitrogen monoxide",
+        "operator": "startswith",
+        "matrix": "biosphere"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": "n2o_gwp100_reference * sqrt(n2o_reference_ppb / n2o_concentration_ppb)"
+    }
+  ]
+}

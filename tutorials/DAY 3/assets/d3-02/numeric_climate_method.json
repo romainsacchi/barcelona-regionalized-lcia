@@ -1,0 +1,44 @@
+{
+  "name": "Numeric climate method for D3-02",
+  "unit": "kg CO2-eq",
+  "version": "1.0",
+  "description": "Fixed GWP100 characterization factors for carbon dioxide, methane, and dinitrogen monoxide. The startswith operator captures fossil and non-fossil name variants.",
+  "strategies": [
+    "map_exchanges"
+  ],
+  "exchanges": [
+    {
+      "supplier": {
+        "name": "Carbon dioxide",
+        "operator": "startswith",
+        "matrix": "biosphere"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 1.0
+    },
+    {
+      "supplier": {
+        "name": "Methane",
+        "operator": "startswith",
+        "matrix": "biosphere"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 31.028232511015727
+    },
+    {
+      "supplier": {
+        "name": "Dinitrogen monoxide",
+        "operator": "startswith",
+        "matrix": "biosphere"
+      },
+      "consumer": {
+        "matrix": "technosphere"
+      },
+      "value": 300.4542025174746
+    }
+  ]
+}
