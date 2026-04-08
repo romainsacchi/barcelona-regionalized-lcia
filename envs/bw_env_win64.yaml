@@ -29,8 +29,6 @@ dependencies:
   - edges>=1.2.8
   - constructive_geometries
   - country_converter
-  # edges currently runs a post-link ``pip install clipspy`` step. Keep pip
-  # below 26 to avoid stricter metadata handling during that hook.
   - pip<26
   - setuptools<81
 
