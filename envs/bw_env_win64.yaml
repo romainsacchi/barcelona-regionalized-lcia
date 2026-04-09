@@ -26,7 +26,7 @@ dependencies:
   - networkx
   - seaborn
   - prettytable
-  - edges>=1.2.8
+  - edges
   - constructive_geometries
   - country_converter
   - pip<26

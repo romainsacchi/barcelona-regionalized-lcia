@@ -7,7 +7,7 @@ channels:
   - lca
   - defaults
 dependencies:
-  - python
+  - python>=3.10,<3.13
   - bw2calc
   - bw2data
   - bw2io
@@ -26,12 +26,12 @@ dependencies:
   - networkx
   - seaborn
   - prettytable
-  - edges>=1.2.8
   - constructive_geometries
   - country_converter
   - pip<26
   - setuptools<81
   - pip:
+      - git+https://github.com/romainsacchi/edges.git
       - multifunctional
       - bw_simapro_csv
       - git+https://github.com/romainsacchi/d3blocks.git
