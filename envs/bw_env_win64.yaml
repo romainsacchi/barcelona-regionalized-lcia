@@ -5,7 +5,7 @@ channels:
   - conda-forge
   - cmutel
   - lca
-  - defaults
+  - romainsacchi
 dependencies:
   - python
   - bw2calc

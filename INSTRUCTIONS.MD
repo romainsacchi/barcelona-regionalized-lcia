@@ -112,6 +112,14 @@ You have two options:
 - Option A (GUI): GitHub Desktop https://desktop.github.com/download/
 - Option B (terminal): use `git clone`
 
+At this point, you might want to create a folder containing your cloned projects. Otherwise they will be listed directly under "Documents".
+
+```bash
+mkdir GitHub
+cd GitHub
+```
+This creates a folder named "GitHub", and you enter it with cd. 
+
 Terminal example:
 
 ```bash
@@ -119,7 +127,7 @@ git clone https://github.com/romainsacchi/barcelona-regionalized-lcia.git
 cd barcelona-regionalized-lcia
 ```
 
-`git clone` creates a local copy of the course material on your computer.
+`git clone` creates a local copy of the course material on your computer (in the GitHub folder created above).
 The repository URL above ends with `.git`, which is the standard clone URL shown on the GitHub page.
 
 ## 4) Create the course environment (`bw`)
