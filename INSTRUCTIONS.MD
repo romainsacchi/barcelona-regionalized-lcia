@@ -209,7 +209,7 @@ conda install --force-reinstall "setuptools<81" "pip<26"
 Then retry the environment update if needed.
 
 
-## 6) Confirm the bundled BAFU:2025 inventory file
+## 6) We will use the BAFU:2025 database imported from an inventory file
 
 This course uses the **BAFU:2025** open-access LCA database as a
 `brightway`-compatible Excel inventory file.
@@ -256,7 +256,7 @@ Requirements:
 - The Swiss Federal Administration cannot be held responsible for the published data.
 - It is recommended that specialists be consulted for the implementation of life cycle assessments and the analysis of the results.
 
-## 9) If something fails, email this information
+## 9) If something fails or if you are stuck, email this information
 
 Send to `romain.sacchi@psi.ch`:
 
