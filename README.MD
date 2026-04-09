@@ -98,8 +98,12 @@ See the detailed agenda with notebook mapping in [SCHEDULE.MD](SCHEDULE.MD).
 ## Recommended Workflow
 
 Participants should work through the repository in this order:
+
+Before the course starts:
 1. Follow [INSTRUCTIONS.MD](INSTRUCTIONS.MD).
 2. Run `tutorials/00_SETUP/00 - Setup and First Checks.ipynb`.
+
+During the course:
 3. Complete Day 1, then Day 2, then Day 3 in the order shown in [SCHEDULE.MD](SCHEDULE.MD).
 4. Keep using the same `bw` conda environment and the same Brightway project created on Day 1, because later notebooks build on that state.
 
@@ -117,6 +121,9 @@ You do not need the `Advanced Course in Programming` section.
 
 No database download is required before arrival; the BAFU workbook is already included under `data/`.
 Internet access is still needed for software installation, package downloads, and the first download of the prepared Brightway project archive used in Day 1.
+
+Also, check the [pre-course reading material](READING_MATERIAL.md).
+
 
 ## Software
 
