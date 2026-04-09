@@ -1,0 +1,292 @@
+family,commodity,name,reference product,location,unit
+aluminium_primary,"aluminium, primary","Aluminium, primary, at plant","Aluminium, primary, at plant",RER,kilogram
+antimony,antimony,"Antimony, at refinery","Antimony, at refinery",CN,kilogram
+asbestos,asbestos,"Asbestos, crysotile type, at plant","Asbestos, crysotile type, at plant",GLO,kilogram
+barite,barite,"Barite, at plant","Barite, at plant",RER,kilogram
+bauxite,bauxite,"Bauxite, at mine","Bauxite, at mine",GLO,kilogram
+bentonite,bentonite,"Bentonite, at processing","Bentonite, at processing",DE,kilogram
+borate,borate,"Calcium borates, at plant","Calcium borates, at plant",TR,kilogram
+borate,borate,"Sodium borates, at plant","Sodium borates, at plant",US,kilogram
+cadmium,cadmium,"Cadmium, primary, at plant","Cadmium, primary, at plant",GLO,kilogram
+chromite,chromite,"Chromite, ore concentrate, at beneficiation","Chromite, ore concentrate, at beneficiation",GLO,kilogram
+cobalt,cobalt,"Cobalt, at plant","Cobalt, at plant",GLO,kilogram
+copper_concentrate,copper concentrate,"Copper concentrate, at beneficiation","Copper concentrate, at beneficiation",GLO,kilogram
+copper_concentrate,copper concentrate,"Copper concentrate, at beneficiation","Copper concentrate, at beneficiation",ID,kilogram
+copper_concentrate,copper concentrate,"Copper concentrate, at beneficiation","Copper concentrate, at beneficiation",RAS,kilogram
+copper_concentrate,copper concentrate,"Copper concentrate, at beneficiation","Copper concentrate, at beneficiation",RER,kilogram
+copper_concentrate,copper concentrate,"Copper concentrate, at beneficiation","Copper concentrate, at beneficiation",RLA,kilogram
+copper_concentrate,copper concentrate,"Copper concentrate, at beneficiation","Copper concentrate, at beneficiation",US,kilogram
+feldspar,feldspar,"Feldspar, at plant","Feldspar, at plant",RER,kilogram
+fluorspar,fluorspar,"Fluorspar, 97%, at plant","Fluorspar, 97%, at plant",GLO,kilogram
+gold,gold,"Gold, at refinery","Gold, at refinery",AU,kilogram
+gold,gold,"Gold, at refinery","Gold, at refinery",CA,kilogram
+gold,gold,"Gold, at refinery","Gold, at refinery",TZ,kilogram
+gold,gold,"Gold, at refinery","Gold, at refinery",US,kilogram
+gold,gold,"Gold, at refinery","Gold, at refinery",ZA,kilogram
+gold,gold,"Gold, at regional storage","Gold, at regional storage",RER,kilogram
+gold,gold,"Gold, from combined gold-silver production, at refinery","Gold, from combined gold-silver production, at refinery",CL,kilogram
+gold,gold,"Gold, from combined gold-silver production, at refinery","Gold, from combined gold-silver production, at refinery",PE,kilogram
+gold,gold,"Gold, from combined gold-silver production, at refinery","Gold, from combined gold-silver production, at refinery",PG,kilogram
+gold,gold,"Gold, from combined metal production, at beneficiation","Gold, from combined metal production, at beneficiation",SE,kilogram
+gold,gold,"Gold, from combined metal production, at refinery","Gold, from combined metal production, at refinery",SE,kilogram
+gold,gold,"Gold, primary, at refinery","Gold, primary, at refinery",GLO,kilogram
+gold,gold,"Gold, secondary, at precious metal refinery","Gold, secondary, at precious metal refinery",SE,kilogram
+graphite,graphite,"Graphite, at plant","Graphite, at plant",RER,kilogram
+graphite,graphite,"Graphite, battery grade, at plant","Graphite, battery grade, at plant",CN,kilogram
+gypsum_mineral,"gypsum, mineral","Gypsum, mineral, at mine","Gypsum, mineral, at mine",CH,kilogram
+hard_coal,hard coal,"Hard coal mix, at regional storage","Hard coal mix, at regional storage",UCTE,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,AT,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,BE,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,CN,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,CZ,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,DE,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,ES,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,FR,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,HR,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,IN,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,IT,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,NL,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,PL,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,PT,kilogram
+hard_coal,hard coal,Hard coal supply mix,Hard coal supply mix,SK,kilogram
+hard_coal,hard coal,"Hard coal supply mix, at regional storage","Hard coal supply mix, at regional storage",US,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",AU,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",CN,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",CPA,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",EEU,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",IN,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",RLA,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",RNA,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",RU,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",US,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",WEU,kilogram
+hard_coal,hard coal,"Hard coal, at mine","Hard coal, at mine",ZA,kilogram
+iridium,iridium,Iridium production,Iridium production,GLO,kilogram
+iron,iron,"Iron ore, 46% Fe, at mine","Iron ore, 46% Fe, at mine",GLO,kilogram
+iron,iron,"Iron ore, 65% Fe, at beneficiation","Iron ore, 65% Fe, at beneficiation",GLO,kilogram
+iron,iron,"Pig iron, at plant","Pig iron, at plant",GLO,kilogram
+iron,iron,"Pig iron, at plant","Pig iron, at plant",RER,kilogram
+kaolin,kaolin,"Kaolin, at plant","Kaolin, at plant",RER,kilogram
+lead_concentrate,lead concentrate,"Lead concentrate, at beneficiation","Lead concentrate, at beneficiation",GLO,kilogram
+lignite,lignite,"Lignite, at mine","Lignite, at mine",RER,kilogram
+lithium,lithium,"Lithium carbonate, at plant","Lithium carbonate, at plant",GLO,kilogram
+lithium,lithium,"Lithium hydroxide, at plant","Lithium hydroxide, at plant",GLO,kilogram
+lithium,lithium,"Lithium manganese oxide, at plant","Lithium manganese oxide, at plant",GLO,kilogram
+lithium,lithium,"Lithium, at plant","Lithium, at plant",GLO,kilogram
+magnesium,magnesium,"Magnesium oxide, at plant","Magnesium oxide, at plant",RER,kilogram
+magnesium,magnesium,Magnesium plant,Magnesium plant,RER,unit
+magnesium,magnesium,"Magnesium sulphate, at plant","Magnesium sulphate, at plant",RER,kilogram
+magnesium,magnesium,"Magnesium, at plant","Magnesium, at plant",RER,kilogram
+manganese,manganese,"Manganese concentrate, at beneficiation","Manganese concentrate, at beneficiation",GLO,kilogram
+manganese,manganese,"Manganese oxide (Mn2O3), at plant","Manganese oxide (Mn2O3), at plant",CN,kilogram
+manganese,manganese,"Manganese, at regional storage","Manganese, at regional storage",RER,kilogram
+mercury,mercury,"Mercury, liquid, at plant","Mercury, liquid, at plant",GLO,kilogram
+molybdenite,molybdenite,"Molybdenite, at plant","Molybdenite, at plant",GLO,kilogram
+natural_gas,natural gas,"Natural gas, at consumer","Natural gas, at consumer",US,megajoule
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",AE,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",AO,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",AR,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",AU,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",AZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",BE,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",BO,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",BR,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",CA,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",CN,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",CO,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",DE,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",DZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",EC,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",EG,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",ES,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",FR,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",GB,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",GQ,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",ID,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",IN,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",IQ,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",IR,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",IT,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",JP,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",KR,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",KW,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",KZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",LY,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",MX,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",MY,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",NG,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",NL,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",NO,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",OM,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",PE,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",PL,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",QA,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",RO,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",RU,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",SA,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",TH,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",TM,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",TR,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",TT,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",TW,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",UA,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",US,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",UZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production","Natural gas, at production",VE,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",AE,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",AO,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",AR,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",AU,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",AZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",BE,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",BO,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",BR,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",CA,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",CN,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",CO,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",DE,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",DZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",EC,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",EG,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",ES,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",FR,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",GB,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",GQ,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",ID,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",IN,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",IQ,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",IR,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",IT,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",JP,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",KR,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",KW,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",KZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",LY,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",MX,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",MY,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",NG,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",NL,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",NO,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",OM,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",PE,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",PL,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",QA,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",RO,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",RU,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",SA,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",TH,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",TM,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",TR,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",TT,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",TW,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",UA,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",US,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",UZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production offshore","Natural gas, at production offshore",VE,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",AE,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",AO,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",AR,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",AU,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",AZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",BE,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",BO,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",BR,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",CA,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",CN,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",CO,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",DE,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",DZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",EC,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",EG,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",ES,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",FR,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",GB,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",GQ,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",ID,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",IN,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",IQ,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",IR,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",IT,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",JP,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",KR,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",KW,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",KZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",LY,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",MX,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",MY,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",NG,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",NL,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",NO,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",OM,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",PE,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",PL,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",QA,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",RO,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",RU,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",SA,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",TH,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",TM,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",TR,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",TT,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",TW,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",UA,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",US,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",UZ,cubic meter
+natural_gas,natural gas,"Natural gas, at production onshore","Natural gas, at production onshore",VE,cubic meter
+nickel,nickel,"Nickel, 99.5%, at plant","Nickel, 99.5%, at plant",GLO,kilogram
+palladium,palladium,"Palladium, at regional storage","Palladium, at regional storage",RER,kilogram
+palladium,palladium,"Palladium, primary, at refinery","Palladium, primary, at refinery",RU,kilogram
+palladium,palladium,"Palladium, primary, at refinery","Palladium, primary, at refinery",ZA,kilogram
+palladium,palladium,"Palladium, secondary, at refinery","Palladium, secondary, at refinery",RER,kilogram
+phosphate,phosphate,Phosphate rock mine,Phosphate rock mine,MA,unit
+phosphate,phosphate,Phosphate rock mine,Phosphate rock mine,US,unit
+phosphate,phosphate,"Phosphate rock, as P2O5, beneficiated, dry, at plant","Phosphate rock, as P2O5, beneficiated, dry, at plant",MA,kilogram
+phosphate,phosphate,"Phosphate rock, as P2O5, beneficiated, wet, at plant","Phosphate rock, as P2O5, beneficiated, wet, at plant",US,kilogram
+platinum,platinum,"Platinum, at regional storage","Platinum, at regional storage",RER,kilogram
+platinum,platinum,"Platinum, primary, at refinery","Platinum, primary, at refinery",RU,kilogram
+platinum,platinum,"Platinum, primary, at refinery","Platinum, primary, at refinery",ZA,kilogram
+platinum,platinum,"Platinum, secondary, at refinery","Platinum, secondary, at refinery",RER,kilogram
+potassium_hydroxide,potassium hydroxide,"Potassium hydroxide, at regional storage","Potassium hydroxide, at regional storage",RER,kilogram
+rare_earth,rare earth,"Rare earth concentrate, 70% REO, from bastnasite, at beneficiation","Rare earth concentrate, 70% REO, from bastnasite, at beneficiation",CN,kilogram
+rhodium,rhodium,"Rhodium, at regional storage","Rhodium, at regional storage",RER,kilogram
+rhodium,rhodium,"Rhodium, primary, at refinery","Rhodium, primary, at refinery",RU,kilogram
+rhodium,rhodium,"Rhodium, primary, at refinery","Rhodium, primary, at refinery",ZA,kilogram
+rhodium,rhodium,"Rhodium, secondary, at refinery","Rhodium, secondary, at refinery",RER,kilogram
+selenium,selenium,"Selenium, at plant","Selenium, at plant",RER,kilogram
+silicon_metallurgical,"silicon, metallurgical","MG-silicon, at plant","MG-silicon, at plant",APAC,kilogram
+silicon_metallurgical,"silicon, metallurgical","MG-silicon, at plant","MG-silicon, at plant",CN,kilogram
+silicon_metallurgical,"silicon, metallurgical","MG-silicon, at plant","MG-silicon, at plant",NO,kilogram
+silicon_metallurgical,"silicon, metallurgical","MG-silicon, at plant","MG-silicon, at plant",US,kilogram
+silver,silver,"Silver, at regional storage","Silver, at regional storage",RER,kilogram
+silver,silver,"Silver, from combined gold-silver production, at refinery","Silver, from combined gold-silver production, at refinery",CL,kilogram
+silver,silver,"Silver, from combined gold-silver production, at refinery","Silver, from combined gold-silver production, at refinery",GLO,kilogram
+silver,silver,"Silver, from combined gold-silver production, at refinery","Silver, from combined gold-silver production, at refinery",PE,kilogram
+silver,silver,"Silver, from combined gold-silver production, at refinery","Silver, from combined gold-silver production, at refinery",PG,kilogram
+silver,silver,"Silver, from combined metal production, at beneficiation","Silver, from combined metal production, at beneficiation",SE,kilogram
+silver,silver,"Silver, from combined metal production, at refinery","Silver, from combined metal production, at refinery",SE,kilogram
+silver,silver,"Silver, from copper production, at refinery","Silver, from copper production, at refinery",GLO,kilogram
+silver,silver,"Silver, from lead production, at refinery","Silver, from lead production, at refinery",GLO,kilogram
+silver,silver,"Silver, secondary, at precious metal refinery","Silver, secondary, at precious metal refinery",SE,kilogram
+sulfur,sulfur,"Secondary sulphur, at refinery","Secondary sulphur, at refinery",CH,kilogram
+sulfur,sulfur,"Secondary sulphur, at refinery","Secondary sulphur, at refinery",RER,kilogram
+tantalum,tantalum,"Tantalum, powder, capacitor-grade, at regional storage","Tantalum, powder, capacitor-grade, at regional storage",GLO,kilogram
+tellurium,tellurium,"Tellurium, semiconductor-grade, at plant","Tellurium, semiconductor-grade, at plant",GLO,kilogram
+tin,tin,"Tin, at regional storage","Tin, at regional storage",RER,kilogram
+titanium_dioxide,titanium dioxide,"Titanium dioxide at plant, sulphate process, at plant","Titanium dioxide at plant, sulphate process, at plant",RER,kilogram
+titanium_dioxide,titanium dioxide,"Titanium dioxide, chloride process, at plant","Titanium dioxide, chloride process, at plant",RER,kilogram
+titanium_dioxide,titanium dioxide,"Titanium dioxide, production mix, at plant","Titanium dioxide, production mix, at plant",RER,kilogram
+uranium,uranium,"Uranium natural, at mine","Uranium natural, at mine",GLO,kilogram
+uranium,uranium,"Uranium natural, at open pit mine","Uranium natural, at open pit mine",BR,kilogram
+uranium,uranium,"Uranium natural, at open pit mine","Uranium natural, at open pit mine",US,kilogram
+uranium,uranium,"Uranium natural, at underground mine","Uranium natural, at underground mine",RU,kilogram
+uranium,uranium,"Uranium natural, at underground mine","Uranium natural, at underground mine",US,kilogram
+uranium,uranium,"Uranium natural, in yellowcake, at in-situ leaching mine","Uranium natural, in yellowcake, at in-situ leaching mine",GLO,kilogram
+zinc,zinc,"Zinc concentrate, at beneficiation","Zinc concentrate, at beneficiation",GLO,kilogram
+zinc,zinc,"Zinc monosulphate, ZnSO4.H2O, at plant","Zinc monosulphate, ZnSO4.H2O, at plant",RER,kilogram
+zinc,zinc,"Zinc oxide, at plant","Zinc oxide, at plant",RER,kilogram
+zinc,zinc,"Zinc sulphide, ZnS, at plant","Zinc sulphide, ZnS, at plant",RER,kilogram
+zinc,zinc,"Zinc, from combined metal production, at beneficiation","Zinc, from combined metal production, at beneficiation",SE,kilogram
+zinc,zinc,"Zinc, from combined metal production, at refinery","Zinc, from combined metal production, at refinery",SE,kilogram
+zinc,zinc,"Zinc, primary, at regional storage","Zinc, primary, at regional storage",RER,kilogram
+zirconium,zirconium,"Zircon, 50% zirconium, at plant","Zircon, 50% zirconium, at plant",AU,kilogram
+zirconium,zirconium,"Zirconium oxide, at plant","Zirconium oxide, at plant",AU,kilogram

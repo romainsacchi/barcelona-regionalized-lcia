@@ -15,5 +15,7 @@ Before starting Day 3, make sure that:
 6. `D3-06 Capstone dual case study.ipynb`
 
 The `assets/` folder is reserved for Day 3 support files.
-`D3-02` now loads example method JSON files from `assets/d3-02/`.
-The other Day 3 notebooks still mainly rely on the Brightway project state built earlier in the course.
+`D3-02` loads example parameterised method JSON files from `assets/d3-02/`.
+`D3-04` loads inventory-flow tracer methods from `assets/d3-04/`.
+`D3-05` loads the BAFU-specific GeoPolRisk paired method and companion mapping reports from `assets/d3-05/`.
+The Day 3 notebooks otherwise still mainly rely on the Brightway project state built earlier in the course.

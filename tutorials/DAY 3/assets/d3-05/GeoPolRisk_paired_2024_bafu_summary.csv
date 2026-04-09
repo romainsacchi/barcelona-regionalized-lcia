@@ -1,0 +1,57 @@
+family,commodity,status,original_cf_rows,supplier_templates,generated_cf_rows,matched_bafu_activities,matched_bafu_locations,sample_matches,note
+aluminium_primary,"aluminium, primary",supported,1821,1,1820,1,RER,"Aluminium, primary, at plant [RER]",Maps to BAFU primary aluminium products and preserves the original liquid/alloy exclusions.
+antimony,antimony,supported,196,1,196,1,CN,"Antimony, at refinery [CN]",Direct BAFU antimony refinery dataset.
+arsenide,arsenide,unsupported,281,0,0,0,,,"Only `Sodium arsenide, at plant` is present in BAFU, which is too derivative for a direct port."
+asbestos,asbestos,supported,286,1,285,1,GLO,"Asbestos, crysotile type, at plant [GLO]",Direct chrysotile asbestos dataset.
+barite,barite,supported,1104,1,1103,1,RER,"Barite, at plant [RER]",Direct BAFU barite product.
+bauxite,bauxite,supported,834,1,833,1,GLO,"Bauxite, at mine [GLO]",Uses BAFU mine-stage bauxite dataset.
+bentonite,bentonite,supported,2774,1,2773,1,DE,"Bentonite, at processing [DE]",Broad BAFU bentonite prefix; original excludes keep the processing dataset and reject mine/recultivation records.
+beryllium,beryllium,unsupported,96,0,0,0,,,No BAFU technosphere supplier activity found.
+bismuth,bismuth,unsupported,668,0,0,0,,,No BAFU technosphere supplier activity found.
+borate,borate,supported,657,2,1312,2,TR; US,"Calcium borates, at plant [TR] | Sodium borates, at plant [US]",Expanded to the two explicit BAFU borate commodity forms; perborates and other downstream boron chemicals stay excluded.
+cadmium,cadmium,supported,386,1,385,1,GLO,"Cadmium, primary, at plant [GLO]",Direct cadmium product prefix; original `grade` exclusion drops semiconductor-grade cadmium.
+chromite,chromite,supported,633,1,632,1,GLO,"Chromite, ore concentrate, at beneficiation [GLO]",Direct chromite concentrate dataset.
+cobalt,cobalt,supported,978,1,977,1,GLO,"Cobalt, at plant [GLO]",Direct cobalt product dataset.
+copper_concentrate,copper concentrate,supported,1002,1,1001,6,GLO; ID; RAS; RER; RLA; US,"Copper concentrate, at beneficiation [GLO] | Copper concentrate, at beneficiation [ID] | Copper concentrate, at beneficiation [RAS] | Copper concentrate, at beneficiation [RER] | Copper concentrate, at beneficiation [RLA]",Direct copper concentrate beneficiation datasets across multiple locations.
+feldspar,feldspar,supported,975,1,974,1,RER,"Feldspar, at plant [RER]",Direct feldspar product dataset.
+ferroniobium,ferroniobium,unsupported,429,0,0,0,,,No BAFU ferroniobium supplier activity found.
+ferrosilicon,ferrosilicon,unsupported,1,0,0,0,,,No BAFU ferrosilicon supplier activity found.
+fluorspar,fluorspar,supported,451,1,450,1,GLO,"Fluorspar, 97%, at plant [GLO]",Direct fluorspar commodity dataset.
+gold,gold,supported,1547,1,1546,13,AU; CA; CL; GLO; PE; PG; RER; SE; TZ; US; ZA,"Gold, at refinery [AU] | Gold, at refinery [CA] | Gold, at refinery [TZ] | Gold, at refinery [US] | Gold, at refinery [ZA]","Uses the BAFU gold family prefix, which covers refinery and combined-production variants."
+graphite,graphite,supported,1066,1,1065,2,CN; RER,"Graphite, at plant [RER] | Graphite, battery grade, at plant [CN]",Maps to graphite commodity products while keeping the original anode exclusion.
+gypsum_mineral,"gypsum, mineral",supported,1620,1,1619,1,CH,"Gypsum, mineral, at mine [CH]",Direct BAFU mineral gypsum mine dataset.
+hard_coal,hard coal,supported,1832,3,5493,27,AT; AU; BE; CN; CPA; CZ; DE; EEU; ES; FR; HR; IN; IT; NL; PL; PT; RLA; RNA; RU; SK; UCTE; US; WEU; ZA,"Hard coal mix, at regional storage [UCTE] | Hard coal supply mix [AT] | Hard coal supply mix [BE] | Hard coal supply mix [CN] | Hard coal supply mix [CZ]","BAFU exposes upstream coal via mine, supply-mix, and regional-storage activities rather than ecoinvent-style market names."
+iridium,iridium,supported,1,1,1,1,GLO,Iridium production [GLO],Direct BAFU iridium production dataset.
+iron,iron,supported,864,2,1726,4,GLO; RER,"Iron ore, 46% Fe, at mine [GLO] | Iron ore, 65% Fe, at beneficiation [GLO] | Pig iron, at plant [GLO] | Pig iron, at plant [RER]",Approximate port using the closest BAFU upstream iron commodity forms: pig iron and iron ore.
+kaolin,kaolin,supported,1876,1,1875,1,RER,"Kaolin, at plant [RER]",Direct kaolin dataset.
+lead_concentrate,lead concentrate,supported,487,1,487,1,GLO,"Lead concentrate, at beneficiation [GLO]",Direct lead concentrate beneficiation dataset.
+lignite,lignite,supported,422,1,421,1,RER,"Lignite, at mine [RER]",Conservative mine-stage lignite mapping that avoids briquette and power-plant records.
+lithium,lithium,supported,705,1,704,4,GLO,"Lithium carbonate, at plant [GLO] | Lithium hydroxide, at plant [GLO] | Lithium manganese oxide, at plant [GLO] | Lithium, at plant [GLO]","Uses the BAFU lithium family prefix so the original excludes can remove chloride, hydroxide, phosphate, fluoride, and brine variants."
+magnesium,magnesium,supported,867,1,866,4,RER,"Magnesium oxide, at plant [RER] | Magnesium plant [RER] | Magnesium sulphate, at plant [RER] | Magnesium, at plant [RER]",Direct magnesium product prefix; alloy and sulfate variants remain excluded.
+manganese,manganese,supported,795,1,794,3,CN; GLO; RER,"Manganese concentrate, at beneficiation [GLO] | Manganese oxide (Mn2O3), at plant [CN] | Manganese, at regional storage [RER]","Maps to metal, concentrate, and oxide manganese products while preserving the original lithium/potassium exclusions."
+mercury,mercury,supported,351,1,350,1,GLO,"Mercury, liquid, at plant [GLO]",Direct mercury commodity prefix; treatment and chlorine-linked variants remain excluded.
+molybdenite,molybdenite,supported,369,1,368,1,GLO,"Molybdenite, at plant [GLO]",Direct BAFU molybdenite dataset.
+natural_gas,natural gas,supported,913,2,1824,151,AE; AO; AR; AU; AZ; BE; BO; BR; CA; CN; CO; DE; DZ; EC; EG; ES; FR; GB; GQ; ID; IN; IQ; IR; IT; JP; KR; KW; KZ; LY; MX; MY; NG; NL; NO; OM; PE; PL; QA; RO; RU; SA; TH; TM; TR; TT; TW; UA; US; UZ; VE,"Natural gas, at consumer [US] | Natural gas, at production [AE] | Natural gas, at production [AO] | Natural gas, at production [AR] | Natural gas, at production [AU]","Conservative upstream/user-supply mapping that avoids the broader transport, pipeline, and combustion family in BAFU."
+nickel,nickel,supported,364,1,363,1,GLO,"Nickel, 99.5%, at plant [GLO]",Direct nickel commodity prefix; original exclusions drop alloy and platinum-group coproduct variants.
+palladium,palladium,supported,342,1,341,4,RER; RU; ZA,"Palladium, at regional storage [RER] | Palladium, primary, at refinery [RU] | Palladium, primary, at refinery [ZA] | Palladium, secondary, at refinery [RER]",Direct palladium commodity prefix.
+petroleum,petroleum,unsupported,1619,0,0,0,,,"BAFU only exposes petroleum coke variants, which the original GeoPolRisk rule explicitly excludes."
+phosphate,phosphate,supported,765,1,764,4,MA; US,"Phosphate rock mine [MA] | Phosphate rock mine [US] | Phosphate rock, as P2O5, beneficiated, dry, at plant [MA] | Phosphate rock, as P2O5, beneficiated, wet, at plant [US]",Maps to BAFU phosphate rock mine and beneficiated rock datasets rather than downstream fertilizer products.
+platinum,platinum,supported,1106,1,1105,4,RER; RU; ZA,"Platinum, at regional storage [RER] | Platinum, primary, at refinery [RU] | Platinum, primary, at refinery [ZA] | Platinum, secondary, at refinery [RER]",Direct platinum commodity prefix.
+potassium_hydroxide,potassium hydroxide,supported,1,1,1,1,RER,"Potassium hydroxide, at regional storage [RER]",Direct BAFU potassium hydroxide dataset.
+rare_earth,rare earth,supported,722,1,721,1,CN,"Rare earth concentrate, 70% REO, from bastnasite, at beneficiation [CN]",Conservative mapping to the explicit rare-earth concentrate dataset present in BAFU.
+rhodium,rhodium,supported,250,1,250,4,RER; RU; ZA,"Rhodium, at regional storage [RER] | Rhodium, primary, at refinery [RU] | Rhodium, primary, at refinery [ZA] | Rhodium, secondary, at refinery [RER]",Direct rhodium commodity prefix.
+ruthenium,ruthenium,unsupported,1,0,0,0,,,No BAFU technosphere supplier activity found.
+selenium,selenium,supported,847,1,846,1,RER,"Selenium, at plant [RER]",Direct selenium commodity dataset.
+silicon_metallurgical,"silicon, metallurgical",supported,1,1,1,4,APAC; CN; NO; US,"MG-silicon, at plant [APAC] | MG-silicon, at plant [CN] | MG-silicon, at plant [NO] | MG-silicon, at plant [US]",Maps the ecoinvent metallurgical silicon rule to BAFU's `MG-silicon` commodity dataset.
+silver,silver,supported,345,1,344,10,CL; GLO; PE; PG; RER; SE,"Silver, at regional storage [RER] | Silver, from combined gold-silver production, at refinery [CL] | Silver, from combined gold-silver production, at refinery [GLO] | Silver, from combined gold-silver production, at refinery [PE] | Silver, from combined gold-silver production, at refinery [PG]","Uses the BAFU silver family prefix, covering refinery and combined-production variants."
+strontium_carbonate,strontium carbonate,unsupported,1,0,0,0,,,No BAFU technosphere supplier activity found.
+sulfur,sulfur,supported,1637,1,1636,2,CH; RER,"Secondary sulphur, at refinery [CH] | Secondary sulphur, at refinery [RER]",Approximated with BAFU's elemental sulphur refinery product; sulfuric acid and sulphur oxide variants are not used.
+tantalum,tantalum,supported,459,1,458,1,GLO,"Tantalum, powder, capacitor-grade, at regional storage [GLO]",Direct tantalum powder/storage product prefix.
+tellurium,tellurium,supported,512,1,511,1,GLO,"Tellurium, semiconductor-grade, at plant [GLO]",Direct tellurium commodity dataset.
+tin,tin,supported,309,1,308,1,RER,"Tin, at regional storage [RER]",Direct tin commodity prefix; original exclusions remove scrap and platinum-group side products.
+titanium_dioxide,titanium dioxide,supported,754,1,753,3,RER,"Titanium dioxide at plant, sulphate process, at plant [RER] | Titanium dioxide, chloride process, at plant [RER] | Titanium dioxide, production mix, at plant [RER]",Maps to the explicit BAFU titanium dioxide process variants.
+tungsten,tungsten,unsupported,700,0,0,0,,,No BAFU technosphere supplier activity found.
+uranium,uranium,supported,58,2,116,6,BR; GLO; RU; US,"Uranium natural, at mine [GLO] | Uranium natural, at open pit mine [BR] | Uranium natural, at open pit mine [US] | Uranium natural, at underground mine [RU] | Uranium natural, at underground mine [US]","Conservative mine-stage uranium mapping that avoids conversion, milling, and infrastructure records."
+vanadium,vanadium pentoxide,unsupported,657,0,0,0,,,No BAFU vanadium pentoxide supplier activity found.
+zinc,zinc,supported,785,1,784,7,GLO; RER; SE,"Zinc concentrate, at beneficiation [GLO] | Zinc monosulphate, ZnSO4.H2O, at plant [RER] | Zinc oxide, at plant [RER] | Zinc sulphide, ZnS, at plant [RER] | Zinc, from combined metal production, at beneficiation [SE]","Direct zinc commodity prefix; original exclusions drop slag, coating, and post-consumer variants."
+zirconium,zirconium,supported,840,2,1678,2,AU,"Zircon, 50% zirconium, at plant [AU] | Zirconium oxide, at plant [AU]",Split across the two closest BAFU zirconium commodity forms.
