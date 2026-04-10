@@ -12,10 +12,9 @@ Complete:
 
 ## How to open the jupyter notebooks listed below
  - open your shell (terminal for Mac users, miniforge for Windows users)
- ```bash
- conda activate bw
- jupyter lab
- ```
+   ```bash
+   conda activate bw
+   jupyter lab
  - open the notebook we are working on
 
 
