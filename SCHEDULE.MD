@@ -1,13 +1,22 @@
 # Course Schedule
 
 The schedule below maps each time block to specific notebooks.
-Break durations can be adjusted during the course.
+Break durations and time can be adjusted during the course.
 
 ## PRIOR TO ARRIVAL
 
 Complete:
 - [INSTRUCTIONS.MD](INSTRUCTIONS.MD)
 - [tutorials/00_SETUP/00 - Setup and First Checks.ipynb](tutorials/00_SETUP/00%20-%20Setup%20and%20First%20Checks.ipynb)
+- check [reading material](READING_MATERIAL.md)
+
+## How to open the jupyter notebooks listed below
+ - open your shell (terminal for Mac users, miniforge for Windows users)
+   ```bash
+   conda activate bw
+   jupyter lab
+ - open the notebook we are working on
+
 
 ## DAY 1 (Wednesday, May 27, 2026) - `brightway` Foundations
 
