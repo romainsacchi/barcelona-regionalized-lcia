@@ -8,7 +8,7 @@ Break durations and time can be adjusted during the course.
 Complete:
 - [INSTRUCTIONS.MD](INSTRUCTIONS.MD)
 - [tutorials/00_SETUP/00 - Setup and First Checks.ipynb](tutorials/00_SETUP/00%20-%20Setup%20and%20First%20Checks.ipynb)
-- check (reading material)[READING_MATERIAL.md]
+- check [reading material](READING_MATERIAL.md)
 
 ## How to open the jupyter notebooks listed below
  - open your shell (terminal for Mac users, miniforge for Windows users)
