@@ -177,6 +177,7 @@ python -c "import bw2data, bw2calc, bw2io; print('Brightway core import: OK')"
 
 There should be no error messages, and the last line should print `Brightway core import: OK`.
 
+
 ### Apple Silicon note about the sparse solver warning
 
 On Apple Silicon, `bw2calc` may print a warning about missing `scikit-umfpack`.
