@@ -15,6 +15,10 @@ Before starting Day 2, make sure that:
 6. `D2-06 Variability and uncertainty in regionalised LCIA.ipynb`
 7. `D2-07 Case study - Regionalised hydrogen pathways.ipynb`
 
+Companion note:
+- `D2 AWARE2.0 reference note.MD`
+- `D2 IBIF reference note.MD`
+
 Bundled assets in `assets/`:
 - `edges_examples/`: small JSON teaching methods used in `D2-03`, `D2-04`, and `D2-06`
 - `lci_hydrogen_electrolysis_v3_10_importable.xlsx`: foreground workbook used in `D2-07`
