@@ -1,0 +1,57 @@
+name: test-conda-envs
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-env:
+    name: Test on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash -el {0}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            env_file: envs/bw_env_win64.yaml
+            env_name: bw
+          - os: macos-latest
+            env_file: envs/bw_env_osxARM.yaml
+            env_name: bw
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Miniconda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          auto-activate-base: false
+          channels: conda-forge,defaults
+
+      - name: Create environment
+        run: |
+          conda env create -f "${{ matrix.env_file }}"
+
+      - name: Smoke test Brightway imports
+        run: |
+          conda run -n "${{ matrix.env_name }}" python -W error - <<'PY'
+          import bw2data
+          import bw2io
+          import bw2calc
+          print("Brightway imports OK")
+          PY
+
+      - name: Smoke test activity-browser entry point
+        run: |
+          conda run -n "${{ matrix.env_name }}" python - <<'PY'
+          import shutil
+          cmd = shutil.which("activity-browser")
+          if not cmd:
+              raise SystemExit("activity-browser command not found on PATH")
+          print(f"activity-browser found at: {cmd}")
+          PY

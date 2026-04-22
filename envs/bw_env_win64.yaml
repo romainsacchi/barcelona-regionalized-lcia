@@ -1,4 +1,4 @@
-# in your terminal, run conda: conda env create -f bw_env_win64.yaml
+# in your terminal, run: conda env create -f lca_course_win64.yaml
 
 name: bw
 channels:
@@ -7,38 +7,54 @@ channels:
   - lca
   - romainsacchi
 dependencies:
-  - python>=3.10,<3.13
-  - bw2calc
-  - bw2data
-  - bw2io
+  - python=3.11
+  - bw2calc>=2.0.1
+  - bw2data>=4.3
+  - bw2io>=0.9.4
   - bw2analyzer
   - bw2parameters
   - bw_processing
   - stats_arrays
-  - pypardiso
-  - scipy
+  - numpy=<2.0.0
+  - pandas<3.0.0
+  - scipy<1.14.0
+  - sparse>=0.14.0,<0.18
+  - bottleneck
   - jupyterlab
-  - numpy
-  - pandas
   - openpyxl
   - matplotlib
   - plotly
   - networkx
   - seaborn
   - prettytable
-  - edges
-  - constructive_geometries
+  - constructive_geometries>=1.0.0
   - country_converter
+  - ecoinvent_interface
+  - cryptography
+  - datapackage
+  - platformdirs
+  - pyarrow
+  - pycountry
+  - python-dotenv
+  - pyyaml
+  - requests
+  - schema
+  - xarray<=2024.2.0
+  - tqdm
+  - fair
+  - pyvis
+  - pypardiso
+  - premise
+  - edges
+  - conda-forge::pyside6=6.9.3
+  - lca::activity-browser
   - pip<26
   - setuptools<81
-
   - pip:
+      - git+https://github.com/Laboratory-for-Energy-Systems-Analysis/trails.git
       - multifunctional
       - bw_simapro_csv
       - git+https://github.com/romainsacchi/d3blocks.git
       - polyviz
-      - PySide6==6.9.3
-      - PySide6-Addons==6.9.3
-      - activity-browser
 variables:
   PYTHONNOUSERSITE: "1"
