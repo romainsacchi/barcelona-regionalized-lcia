@@ -1,0 +1,66 @@
+# Fallback pip/venv environment for participants who cannot use Anaconda, conda, or Miniforge.
+# Use with Python 3.11 from the repository root:
+# python -m pip install -r envs/requirements_venv.txt
+
+pip<26
+setuptools<81
+wheel
+
+bw2calc>=2.0.1
+bw2data>=4.3
+bw2io>=0.9.4
+bw2analyzer
+bw2parameters
+bw_processing
+stats_arrays
+
+numpy>=1.24.4,<2.0.0
+pandas<3.0.0
+scipy<1.14.0
+sparse>=0.14.0,<0.18
+bottleneck
+
+jupyterlab
+ipykernel
+openpyxl
+matplotlib
+plotly
+networkx
+seaborn
+prettytable
+
+constructive_geometries>=1.0.0
+country_converter
+ecoinvent_interface
+cryptography
+datapackage
+platformdirs
+pyarrow
+pycountry
+python-dotenv
+pyyaml
+requests
+schema
+xarray<=2024.2.0
+tqdm
+fair
+pyvis
+
+premise
+edges
+pypardiso; platform_system == "Windows"
+multifunctional
+bw_simapro_csv
+polyviz
+
+git+https://github.com/Laboratory-for-Energy-Systems-Analysis/trails.git
+git+https://github.com/romainsacchi/d3blocks.git
+
+PySide6==6.9.3
+PySide6-Addons==6.9.3
+activity-browser
+
+# The macOS conda recipe includes scikit-umfpack. In a venv, installing it
+# usually requires system SuiteSparse/UMFPACK headers, so it is not listed as a
+# portable pip requirement. If bw2calc warns about missing optimized solvers,
+# continue unless a calculation cell actually fails.

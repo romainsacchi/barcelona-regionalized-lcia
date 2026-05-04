@@ -101,11 +101,12 @@ Participants should work through the repository in this order:
 
 Before the course starts:
 1. Follow [INSTRUCTIONS.MD](INSTRUCTIONS.MD).
-2. Run `tutorials/00_SETUP/00 - Setup and First Checks.ipynb`.
+2. Create and activate the `bw` environment. Use the Miniforge/conda route by default; use the venv/pip route only if your institution does not allow Anaconda, conda, or Miniforge.
+3. Run `tutorials/00_SETUP/00 - Setup and First Checks.ipynb`.
 
 During the course:
-3. Complete Day 1, then Day 2, then Day 3 in the order shown in [SCHEDULE.MD](SCHEDULE.MD).
-4. Keep using the same `bw` conda environment and the same Brightway project created on Day 1, because later notebooks build on that state.
+4. Complete Day 1, then Day 2, then Day 3 in the order shown in [SCHEDULE.MD](SCHEDULE.MD).
+5. Keep using the same `bw` environment and the same Brightway project created on Day 1, because later notebooks build on that state.
 
 ## Before the Course
 
@@ -127,8 +128,16 @@ Also, check the [pre-course reading material](READING_MATERIAL.md).
 
 ## Software
 
-Core environment files are in `envs/`:
-- `bw_env_win64.yaml` (for Windows computers) or `bw_env_osxARM.yaml` (for Mac computers with Apple Silicon chips)
+Core environment files are in `envs/`.
+
+Preferred Miniforge/conda files:
+- `bw_env_osxARM.yaml` for macOS Apple Silicon
+- `bw_env_win64.yaml` for Windows or Mac Intel
+
+Fallback venv/pip file for participants who cannot use Anaconda, conda, or Miniforge:
+- `requirements_venv.txt` for a pip-installable fallback matching the `bw` environment as closely as possible
+
+See [INSTRUCTIONS.MD](INSTRUCTIONS.MD) for the exact commands.
 
 ## Teaching Staff
 

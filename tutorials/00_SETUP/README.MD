@@ -12,3 +12,5 @@ You do not need the `Advanced Course in Programming` section.
 The course uses the BAFU:2025 inventory database as a `brightway`-compatible Excel file.
 It is already included in this repository as `data/lci-bafu.xlsx`.
 No download is required before Day 1.
+
+The setup notebook verifies that the active kernel is the `bw` environment, preferably created with conda. The venv/pip route in [INSTRUCTIONS.MD](../../INSTRUCTIONS.MD) is a fallback for participants who cannot use Anaconda, conda, or Miniforge.

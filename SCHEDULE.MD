@@ -11,11 +11,32 @@ Complete:
 - check [reading material](READING_MATERIAL.md)
 
 ## How to open the jupyter notebooks listed below
- - open your shell (terminal for Mac users, miniforge for Windows users)
-   ```bash
-   conda activate bw
-   jupyter lab
- - open the notebook we are working on
+- Open your shell: `Terminal` on Mac or `Miniforge Prompt` on Windows for the preferred conda route. Use `PowerShell` on Windows only if you followed the alternate venv/pip route.
+- Activate the `bw` environment with the preferred conda route:
+
+```bash
+conda activate bw
+```
+
+If conda is blocked and you used the alternate venv/pip route on macOS or Linux:
+
+```bash
+source .venv-bw/bin/activate
+```
+
+If conda is blocked and you used the alternate venv/pip route on Windows PowerShell:
+
+```powershell
+.\.venv-bw\Scripts\Activate.ps1
+```
+
+- Start Jupyter Lab:
+
+```bash
+jupyter lab
+```
+
+- Open the notebook we are working on.
 
 
 ## DAY 1 (Wednesday, May 27, 2026) - `brightway` Foundations
