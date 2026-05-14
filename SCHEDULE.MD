@@ -72,6 +72,12 @@ Data QA/linking workflow and contribution analysis
 - [D1-06 Data quality checks and linking workflow](tutorials/DAY%201/D1-06%20Data%20quality%20checks%20and%20linking%20workflow.ipynb)
 - [D1-07 Contribution analysis and result visualization](tutorials/DAY%201/D1-07%20Contribution%20analysis%20and%20result%20visualization.ipynb)
 
+### Optional Day 1 extensions, if time allows
+Advanced `brightway` import, uncertainty, and parameter workflows
+- [D1-08 Optional - ecoinvent import and Brightway recap](tutorials/DAY%201/D1-08%20Optional%20-%20ecoinvent%20import%20and%20Brightway%20recap.ipynb)
+- [D1-09 Optional - Foreground and background uncertainty split](tutorials/DAY%201/D1-09%20Optional%20-%20Foreground%20and%20background%20uncertainty%20split.ipynb)
+- [D1-10 Optional - Database-level parameters and Monte Carlo](tutorials/DAY%201/D1-10%20Optional%20-%20Database-level%20parameters%20and%20Monte%20Carlo.ipynb)
+
 ## DAY 2 (Thursday, May 28, 2026) - Regionalised LCIA
 
 ### 09:00 - 10:00

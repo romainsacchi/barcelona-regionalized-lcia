@@ -85,7 +85,7 @@ Requirements:
 
 - `data/`: bundled course data, including the BAFU Excel inventory used on Day 1
 - [tutorials/00_SETUP/](tutorials/00_SETUP/README.MD): pre-course setup and first checks
-- [tutorials/DAY 1/](tutorials/DAY%201/README.MD): `brightway` foundations + BAFU import + `ecoinvent` import overview
+- [tutorials/DAY 1/](tutorials/DAY%201/README.MD): `brightway` foundations + BAFU import + optional advanced Brightway extensions
 - [tutorials/DAY 2/](tutorials/DAY%202/README.MD): regionalised LCIA with `edges`
 - [tutorials/DAY 3/](tutorials/DAY%203/README.MD): scenario LCIA and inventory flow assessment
 - [READING_MATERIAL.md](READING_MATERIAL.md): suggested background reading

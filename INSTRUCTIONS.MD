@@ -24,6 +24,8 @@ If you get stuck, contact:
 - `Miniforge` / `conda`: installs Python packages in an isolated environment. This is the recommended route.
 - `venv` / `pip`: standard Python environment tools. Use this alternate route only if your institution does not allow Anaconda, conda, or Miniforge.
 - `Jupyter Lab`: runs the tutorial notebooks.
+- `brightway`: is the main Python framework used in the course for LCA modeling and calculation.
+- `edges`: runs exchange-based and regionalised LCIA workflows used in Day 2 and Day 3.
 
 ## If you are new to Python
 
@@ -329,7 +331,16 @@ Then open and run all cells in:
 Keep the same `bw` environment for the full course.
 Day 2 and Day 3 assume that the Brightway project created on Day 1 is still available.
 
-## 8) Terms of use and citation requirements (BAFU:2025)
+## 8) Before the course starts
+
+Please complete:
+- [READING_MATERIAL.md](READING_MATERIAL.md)
+- [tutorials/00_SETUP/00 - Setup and First Checks.ipynb](tutorials/00_SETUP/00%20-%20Setup%20and%20First%20Checks.ipynb)
+
+Keep the same `bw` environment for the full course.
+Day 1 creates the Brightway project state used later in Day 2 and Day 3, so do not delete or recreate it unless an instructor asks you to.
+
+## 9) Terms of use and citation requirements (BAFU:2025)
 
 The Swiss Federal Administration provides its eco-inventory data free of charge and with few restrictions.
 Anyone wishing to use the data must first accept the terms of use.
@@ -341,7 +352,76 @@ Requirements:
 - The Swiss Federal Administration cannot be held responsible for the published data.
 - It is recommended that specialists be consulted for the implementation of life cycle assessments and the analysis of the results.
 
-## 9) If something fails or if you are stuck, email this information
+## 10) Updating the repository during the course
+
+The instructors may add or update files during the course.
+When this happens, you may be asked to run:
+
+```bash
+git pull
+```
+
+This usually works if you have not modified the same files.
+If you have worked in a notebook that was also updated by the instructors, Git may refuse to pull or may report a conflict.
+This is normal: Git is protecting your local work.
+
+Before pulling, check whether you have local changes:
+
+```bash
+git status --short
+```
+
+If the command prints nothing, your repository is clean and you can run:
+
+```bash
+git pull
+```
+
+If it lists modified notebooks or other files, preserve your work first.
+The safest course workflow is:
+
+1. Save and close the notebook in Jupyter.
+2. Copy your edited notebook outside this repository, for example to a folder named `barcelona-regionalized-lcia-my-work`.
+3. Let Git restore the original course notebook.
+4. Pull the instructor updates.
+5. Open both the updated course notebook and your saved copy if you need to transfer answers or notes.
+
+Example, replacing the path with the notebook shown by `git status`:
+
+```bash
+mkdir -p ../barcelona-regionalized-lcia-my-work
+cp "tutorials/DAY 2/D2-03 Introduction to edges workflow and API.ipynb" ../barcelona-regionalized-lcia-my-work/
+git restore "tutorials/DAY 2/D2-03 Introduction to edges workflow and API.ipynb"
+git pull
+```
+
+On Windows, if `cp` is not available in your terminal, use File Explorer to copy the notebook outside the repository before running `git restore`.
+Repeat the `cp` and `git restore` commands for each modified course notebook that blocks the pull.
+Only use `git restore` after you have made a backup copy.
+
+If you prefer to keep all local changes inside Git, you can also use a stash:
+
+```bash
+git stash push -m "my course work before update"
+git pull
+git stash pop
+```
+
+This preserves your changes, but `git stash pop` can still create notebook conflicts if the same notebook changed both locally and upstream.
+If that happens, ask an instructor before trying to edit the notebook file manually.
+Notebook files are JSON files, and manual conflict resolution is easy to get wrong.
+
+If you are already in the middle of a failed pull, stop and ask for help.
+In many cases the instructor can help you return to the pre-pull state with one of:
+
+```bash
+git merge --abort
+git rebase --abort
+```
+
+Do not run `git reset --hard` or discard changes in GitHub Desktop unless you are certain your notebook work has been backed up elsewhere.
+
+## 11) If something fails or if you are stuck, email this information
 
 Send to `romain.sacchi@psi.ch`:
 
