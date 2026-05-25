@@ -228,6 +228,26 @@ The venv requirements mirror the course `bw` environment as closely as pip can, 
 The main difference is the optional native sparse solver stack, which is more reliable through conda.
 If a GitHub package install is blocked by your institution, send the error log before the course.
 
+### yet another alternate route
+
+If can't use conda but you can use `uv` we recommend using it. If uv is not installed on your computer check the [installation instructions](https://docs.astral.sh/uv/getting-started/installation/#__tabbed_1_2). Once installed, create a virtual environment and install the required packages.
+
+on linux/mac
+
+```bash
+uv venv venv-bw --python 3.11
+source .venv-bw/bin/activate
+uv pip install -r envs/requirements_venv.txt
+```
+
+on windows
+```powershell
+uv venv venv-bw --python 3.11
+.venv-bw\Scripts\activate
+uv pip install -r envs\requirements_venv.txt
+```
+
+
 ## 5) Activate `bw` and run a quick check
 
 Activate in the same shell.
